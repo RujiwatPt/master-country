@@ -20,6 +20,8 @@ export class UsersService {
       masterCountry,
     });
 
+    //Improvement : DB error handling
+
     return newUser.id;
   }
 
